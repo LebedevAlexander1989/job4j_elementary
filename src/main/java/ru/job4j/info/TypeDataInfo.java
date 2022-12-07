@@ -10,6 +10,6 @@ public class TypeDataInfo {
     long - количество бактерий
     double - расстояние до космических объектов
     boolean - разрешение на работу
-    byte - размер файла
+    byte или short или int - размер файла
      */
 }
