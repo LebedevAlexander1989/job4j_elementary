@@ -1,11 +1,12 @@
 package ru.job4j;
 
 import org.junit.jupiter.api.Test;
-import static org.assertj.core.api.Assertions.*;
 
-public class MainTest {
+import static org.assertj.core.api.Assertions.assertThat;
+
+class MainTest {
     @Test
-    public void whenActionThenResult() {
+    void  whenActionThenResult() {
         int excepted = 1;
         int result = 1;
         assertThat(result).isEqualTo(excepted);
