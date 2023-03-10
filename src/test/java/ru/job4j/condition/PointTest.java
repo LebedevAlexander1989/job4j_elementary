@@ -17,7 +17,7 @@ class PointTest {
     }
 
     @Test
-    void when00to10then1dot1() {
+    void when00to10then1() {
         double expected = 1;
         int x1 = 0;
         int y1 = 0;
