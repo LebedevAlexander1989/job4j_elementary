@@ -2,13 +2,6 @@ package ru.job4j.array;
 
 public class SimpleStringEncoder {
 
-    // входящие данные aaabbc
-    // ответ
-
-    /**
-     * мы проверяем 0 и 1 значение если равны, тогда +1 к счетчику
-     * если не равны, то добавялем в апенд и начинаем двигатться дальше
-     */
     public static String encode(String input) {
         String result = "";
         char symbol = input.charAt(0);
