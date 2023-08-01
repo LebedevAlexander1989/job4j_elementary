@@ -12,17 +12,17 @@ public class Broken {
 
     }
 
-    void echo() {
+    public void echo() {
 
     }
 
-    void media(Object obj) {
+    public void media(Object obj) {
         if (obj != null) {
             System.out.println(obj);
         }
     }
 
-    void methodOne(int a, int b, int c, int d) {
+    public void methodOne(int a, int b, int c, int d) {
 
     }
 
