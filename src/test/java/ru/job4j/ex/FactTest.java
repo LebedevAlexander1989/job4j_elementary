@@ -8,6 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class FactTest {
 
     @Test
+    public void whenIn2ThenResult2() {
+        assertThat(Fact.calc(2)).isEqualTo(2);
+    }
+
+    @Test
     public void whenException() {
         IllegalArgumentException exception =
                 assertThrows(IllegalArgumentException.class,
